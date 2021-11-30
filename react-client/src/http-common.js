@@ -6,5 +6,6 @@ export default axios.create({
     "Cache-Control":"no-cache",
     "Accept-language": "en",
     "Content-type": "application/json",
+    "Access-Control-Allow-Origin":"*"
   }
 });
